@@ -1,0 +1,41 @@
+<h1 mat-dialog-title class="titulo">Añadir libro</h1>
+<br>
+<div mat-dialog-content>
+  <form [formGroup]="bookForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Nombre</mat-label>
+      <input formControlName="bookName" matInput placeholder="La Guillotina">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Archivo:</mat-label>
+      <input type="url" formControlName="file" matInput placeholder="Placeholder">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Editorial:</mat-label>
+      <input type="url" formControlName="editorial" matInput placeholder="Placeholder">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Categoria:</mat-label>
+      <mat-select  formControlName="category" placeholder="Categoria">
+        <mat-option value="Drama">Drama</mat-option>
+        <mat-option value="Comedia">Comedia</mat-option>
+        <mat-option value="Romance">Romance</mat-option>
+        <mat-option value="Ciencia Ficcion">Ciencia Ficcion</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Image:</mat-label>
+      <input formControlName="image" type="url" matInput placeholder="Placeholder">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Description:</mat-label>
+      <textarea formControlName="description" type="url" matInput placeholder="Placeholder"></textarea>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+  <button class="btn1" mat-raised-button color="warn" mat-dialog-close>Cerrar</button>
+  <button class="btn2" mat-raised-button color="primary" (click)="addLibro()">{{actionBtn}}</button>
+</div>

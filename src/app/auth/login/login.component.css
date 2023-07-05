@@ -1,0 +1,75 @@
+
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-box{
+  margin-top: 5%;
+  margin-left:30%;
+  opacity: 0.95;
+  width: 450px;
+  height: 580px;
+  padding: 40px;
+  background: #b59073;
+  text-align: center;
+  border-radius: 24px;
+
+}
+
+.form-title{
+  color: #E8C39E;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 50px auto;
+  padding: 14px 10px;
+  text-align: center;
+  border: 2px solid #E8C39E;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.50s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus {
+  width: 280px;
+  border-color: #866348;
+}
+
+.form-box button[type="submit"]{
+  border: 0;
+  background: #E8C39E;
+  cursor: pointer;
+  border: 3px solid #E8C39E;
+}
+
+.form-box button[type="submit"]:hover{
+  background:none ;
+}
+
+.text1{
+  opacity: 0.6;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

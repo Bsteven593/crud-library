@@ -1,0 +1,20 @@
+.contenedor{
+  width: 100%;
+}
+mat-form-field{
+  width: 100%;
+}
+h1{
+  text-align: center;
+  font-size: 75px;
+}
+/* .btn2{
+  width: 400px;
+  height: 50px;
+  right: 100px;
+}
+.btn1{
+  width: 400px;
+  height: 50px;
+  right: 200px
+} */

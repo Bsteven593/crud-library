@@ -1,0 +1,9 @@
+body{
+  background-image: url('./assets/fondp.jpg');
+  background-repeat: no-reapt;
+  background-position: center, center;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,40 @@
+body{
+  font-family: 'Roboto';
+}
+
+a{
+  font-family: 'Roboto';
+}
+.navbar{
+  background-color: #866348;
+  border: 1px solid #000000;
+}
+
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none;
+  margin-right: 50px;
+  border-radius: 5px;
+
+}
+.nav-menu-link:hover {
+  background-color: #c79d6e;
+
+  color:black !important;
+  transition: 0.4s;
+  width: max-content;
+}
+
+
+
+#filter{
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter:blur(15px);
+  background-color: rgba(236, 236, 236, 0.274);
+  }
+
+
+.table{
+  color: #000000;
+}
